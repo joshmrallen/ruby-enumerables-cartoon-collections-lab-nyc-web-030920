@@ -1,6 +1,6 @@
 def roll_call_dwarves(seven)
   
-  seven
+  seven.each_with_index
   
   
   
