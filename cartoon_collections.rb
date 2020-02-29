@@ -5,12 +5,7 @@ def roll_call_dwarves(seven)
     puts "#{(index + 1)}. #{item}\n"
     
     
-end
-  
-  
-  
-  
-  
+  end
   
 end
 
