@@ -38,6 +38,7 @@ def find_the_cheese(say_cheese)
   while index < cheese_types.length do 
     cheesy = say_cheese.any?{|word| word == cheese_types[index]}
     if cheesy
+      puts cheese_types[index]
       return true
     end
     index += 1
