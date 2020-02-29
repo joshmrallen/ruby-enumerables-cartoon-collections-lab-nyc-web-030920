@@ -9,9 +9,11 @@ def roll_call_dwarves(seven)
   
 end
 
-def summon_captain_planet(elements)
+def summon_captain_planet(planeteer_calls)
   
+  elements = []
   
+  planeteer_calls.map do |e|
   
   
   
