@@ -10,7 +10,6 @@ def roll_call_dwarves(seven)
 end
 
 
-
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |e|
       
@@ -20,15 +19,11 @@ def summon_captain_planet(planeteer_calls)
 end
 
 
-
 def long_planeteer_calls(elements)
   
   elements.any? { |call| call.length > 4 }
     
 end
-
-
-
 
 
 
