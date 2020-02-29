@@ -19,7 +19,6 @@ def summon_captain_planet(planeteer_calls)
       
       elements << (e.capitalize + "!")
     
-    
   end
   
 
