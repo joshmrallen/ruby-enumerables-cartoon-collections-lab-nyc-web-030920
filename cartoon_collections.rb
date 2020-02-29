@@ -37,7 +37,7 @@ def find_the_cheese(say_cheese)
   index = 0
   while index < cheese_types.length do 
     if say_cheese.include?(cheese_types[index])
-      p cheese_types[index]
+      return cheese_types[index]
     end
     index += 1
   end
