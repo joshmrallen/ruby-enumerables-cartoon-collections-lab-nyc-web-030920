@@ -34,8 +34,10 @@ end
 
 def find_the_cheese(say_cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  
-  cheese_types.map {|cheese| say_cheese.any?{|word| word == cheese}}
+  index = 0
+  while index < cheese_types.length do 
+    say_cheese.any?{|word| word == cheese_types[index]}
+  end
   
 end
 
