@@ -1,6 +1,11 @@
 def roll_call_dwarves(seven)
   
-  seven.each_with_index {|item, index| }
+  seven.each_with_index do |item, index| 
+    
+    
+    
+    
+    end
   
   
   
