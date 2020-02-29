@@ -23,12 +23,8 @@ end
 
 def long_planeteer_calls(elements)
   
-  elements.map do |element|
+  elements.any? { |element| element.length > 4 }
     
-    if element.length > 4
-      return true
-  end
-  return false
 end
 
 
