@@ -37,6 +37,7 @@ def find_the_cheese(say_cheese)
   index = 0
   while index < cheese_types.length do 
     say_cheese.any?{|word| word == cheese_types[index]}
+    index += 1
   end
   
 end
